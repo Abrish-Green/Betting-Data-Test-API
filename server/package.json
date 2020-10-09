@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Module that response on a request for data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abrish-Green/Nodejs-API-Test.git"
+  },
+  "author": "THE-GREEN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abrish-Green/Nodejs-API-Test/issues"
+  },
+  "homepage": "https://github.com/Abrish-Green/Nodejs-API-Test#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.7",
+    "node-fetch": "^2.6.1"
+  }
+}
